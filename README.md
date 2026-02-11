@@ -1,4 +1,4 @@
-# syncfusion-maui-blazor-spreadsheet-integration
+# Syncfusion MAUI Blazor Spreadsheet Integration
 
 This repository contains a complete sample demonstrating how to integrate the Syncfusion Blazor Spreadsheet component inside a .NET MAUI Blazor Hybrid application. It showcases how to load and interact with Excel files using the web‑based Syncfusion Spreadsheet UI hosted inside a native MAUI application—providing a seamless, Excel‑like experience across Windows, Android, iOS, and macOS.
 
