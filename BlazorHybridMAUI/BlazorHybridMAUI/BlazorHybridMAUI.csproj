@@ -61,8 +61,8 @@
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
-        <PackageReference Include="Syncfusion.Blazor.Spreadsheet" Version="32.2.3" />
-        <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.2.3" />
+        <PackageReference Include="Syncfusion.Blazor.Spreadsheet" Version="*" />
+        <PackageReference Include="Syncfusion.Blazor.Themes" Version="*" />
     </ItemGroup>
 
 </Project>
