@@ -2,21 +2,17 @@
 
 This repository contains a complete sample demonstrating how to integrate the Syncfusion Blazor Spreadsheet component inside a .NET MAUI Blazor Hybrid application. It showcases how to load and interact with Excel files using the web‑based Syncfusion Spreadsheet UI hosted inside a native MAUI application—providing a seamless, Excel‑like experience across Windows, Android, iOS, and macOS.
 
-✨ **Features**
+## Prerequisites 
 
-- Integrate Syncfusion **Blazor Spreadsheet** inside a .NET MAUI Hybrid app
-- Open and display Excel files (.xlsx, .xls, .csv) using a shared Blazor UI
-- Perform edits, formulas, formatting, and data manipulations
-- Spreadsheet Ribbon included for Excel‑like interactions
-- Runs on **Android**, **iOS**, **Windows**, and **macOS** from a single codebase
-- Uses **BlazorWebView** for hosting web components inside native MAUI shell
+Before you begin, make sure you have: 
 
-🧩 **Technologies Used**
+- [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) with the required workloads:
+    - [Mobile development with .NET](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-10.0&tabs=visual-studio) 
+    - [ASP.NET and web development](https://dotnet.microsoft.com/en-us/apps/aspnet) 
 
-- .NET MAUI Blazor Hybrid + Syncfusion Spreadsheet
-- .NET 8.0+
+- [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) SDK or later installed. 
 
-🚀 **Getting Started**
+## How to run this application
 
 1. **Clone the Repository**
 
@@ -26,14 +22,7 @@ This repository contains a complete sample demonstrating how to integrate the Sy
 
 2. **Locate the MAUI Project**
 
-    Inside the repository, you will find a folder named:
-
-   ```bash
-   BlazorHybridMAUI
-   ```
-   This folder contains the .NET MAUI Blazor Hybrid project and the solution file (.slnx).
-
-   Navigate into it and open the solution file in Visual Studio 2026.
+    Inside the repository, you will find a folder named **BlazorHybridMAUI**, which contains the complete .NET MAUI Blazor Hybrid project along with the solution file (.slnx). Simply navigate into this folder and open the solution in Visual Studio 2026 to begin working with the project.
 
 2. **Run the Project**
 
@@ -48,6 +37,7 @@ This repository contains a complete sample demonstrating how to integrate the Sy
 
     - ✔ Window Machine
     - ✔ Android Emulator
+    - ✔ iOS Remote device 
     - ✔ iOS Simulator
 
 📌 **Notes**
@@ -55,9 +45,3 @@ This repository contains a complete sample demonstrating how to integrate the Sy
 - Ensure the Sample.xlsx file exists inside **wwwroot/**
 - Syncfusion scripts & styles must be correctly referenced in **index.html**
 - You can replace **Sample.xlsx** with your own workbook file
-
-📄 **License and copyright**
-
-> This is a commercial product and requires a paid license for possession or use. Syncfusion<sup>®</sup> licensed software, including this control, is subject to the terms and conditions of Syncfusion<sup>®</sup> [EULA](https://www.syncfusion.com/eula/es/). To acquire a license for 140+ [Blazor components](https://www.syncfusion.com/blazor-components), you can [purchase](https://www.syncfusion.com/sales/products) or [start a free 30-day trial](https://www.syncfusion.com/account/manage-trials/start-trials).
-
-> A [free community license](https://www.syncfusion.com/products/communitylicense) is also available for companies and individuals whose organizations have less than $1 million USD in annual gross revenue and five or fewer developers.
