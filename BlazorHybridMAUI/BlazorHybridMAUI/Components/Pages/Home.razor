@@ -1,0 +1,18 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Spreadsheet
+
+<SfSpreadsheet @ref="Spreadsheet" DataSource="@DataSourceBytes">
+    <SpreadsheetRibbon></SpreadsheetRibbon>
+</SfSpreadsheet>
+
+@code {
+    private SfSpreadsheet? Spreadsheet;
+    public byte[]? DataSourceBytes { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var filePath = "wwwroot/Sample.xlsx";
+        DataSourceBytes = File.ReadAllBytes(filePath);
+    }
+}
